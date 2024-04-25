@@ -1,11 +1,4 @@
 <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-<script>
-    window.RufflePlayer = window.RufflePlayer || {};
-    window.addEventListener("load", (event) => {
-        const ruffle = window.RufflePlayer.newest();
-        const player = ruffle.createPlayer();
-        const container = document.getElementById("container");
-        container.appendChild(player);
-        player.load("CatGame2_android.swf");
-    });
-</script>
+<object>
+    <embed src="CatGame2_android.swf" width="550" height="400" />
+</object>
