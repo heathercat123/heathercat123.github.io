@@ -31,10 +31,7 @@ html, body{
     word-wrap: break-word;
 }
 .bg1{
-	background-image: url("https://i.imgur.com/YUPql5N.gif");
-}
-.bg2{
-	background-image: url("https://i.imgur.com/SHZe50s.gif");
+	background-image: url("./assets/stars.gif");
 }
 a{
 	color: #000000;
