@@ -1,12 +1,13 @@
 html, body{
 	-webkit-font-smoothing:antialiased;
-	font-family: "Comic Sans MS", sans-serif;
+	font-family: "Comic Sans MS";
 	line-height:1.4;
 	margin:0 auto;
 	max-width:860px;
 	height: 100%;
 }
 
+/* For the removed rotation */
 @keyframes rotation {
   from {
     transform: rotate(0deg);
@@ -30,6 +31,7 @@ html, body{
     width: 860px;
     word-wrap: break-word;
 }
+/* STAAAARS*/
 .bg1{
 	background-image: url("./assets/stars.gif");
 }
@@ -58,11 +60,8 @@ h1, h2, h3, p, a {
 span.line{
   color: red;
 }
-.cursor{
-    cursor: url(https://i.imgur.com/RUE567I.gif), auto;
-}
 
-/* @group Blink */
+/* BLEENK */
 .blink {
 	-webkit-animation: blink .75s linear infinite;
 	-moz-animation: blink .75s linear infinite;
@@ -102,7 +101,7 @@ span.line{
 }
 /* @end */
 
-/*for footer*/
+/*for da footer*/
 #main{
 	min-height: 90vh;
 }
