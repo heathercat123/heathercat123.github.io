@@ -1,5 +1,0 @@
-Note: These are only here for me not to forget them.
-
-git add .
-git commit -m "insert info about commit here"
-git push origin main
