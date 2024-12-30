@@ -2,7 +2,7 @@ body {
 	background: url("scratch-bg.png"); /* The background image is the scratchr2 bg with 400 saturation, black and whited and with an #FF0000 layer at the multiply blend mode on it */
 	width: 100%;
 	height: 100%;
-	font-family: "Comic Sans MS";
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .catbottom {
