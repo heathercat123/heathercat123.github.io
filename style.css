@@ -7,7 +7,7 @@ html, body{
 	height: 100%;
 }
 
-/* For the removed rotation */
+/* For the now removed rotation */
 @keyframes rotation {
   from {
     transform: rotate(0deg);
